@@ -6,16 +6,16 @@ let rpg = {
 	resetJoueur: function(nomClasse) {
 		switch (nomClasse) {
 			case "Guerrier":
-				joueur = new Joueur(nomClasse, 50, 2, 5, 5)
+				joueur = new Joueur(nomClasse, 80, 50, 10, 1.4)
 				break;
 			case "Archer":
-				joueur = new Joueur(nomClasse, 100, 5, 20, 5)
+				joueur = new Joueur(nomClasse, 70, 90, 40, 1.4)
 				break;
 			case "Voleur":
-				joueur = new Joueur(nomClasse, 125, 5, 5, 20)
+				joueur = new Joueur(nomClasse, 90, 80, 30, 1.25)
 				break;
 			case "Paladin":
-				joueur = new Joueur(nomClasse, 175, 5, 5, 5)
+				joueur = new Joueur(nomClasse, 150, 60, 15, 1.3)
 				break;
 		}
 		let getJoueur = document.querySelector(".joueur");
@@ -38,16 +38,16 @@ let rpg = {
 		let getActions = document.querySelector(".actions");
 		let getMonstre = document.querySelector(".monstre");
 		//Monstres du jeu et leur statistiques
-		let monstre00 = new Monstre("Maille Esskuel", 100, 5, 500, 5);
-		let monstre01 = new Monstre("Hachete Emèl", 100, 5, 500, 5);
-		let monstre02 = new Monstre("Péachpé", 100, 5, 500, 5);
-		let monstre03 = new Monstre("Yava Skrept", 100, 5, 500, 5);
-		let monstre04 = new Monstre("Sea Shark", 100, 5, 500, 5);
-		let monstre05 = new Monstre("Super SS", 100, 5, 500, 5);
-		let monstre06 = new Monstre("Blobster", 100, 5, 500, 5);
-		let monstre07 = new Monstre("Hard ouino", 100, 5, 500, 5);
-		let monstre08 = new Monstre("Kobold", 100, 5, 500, 5);
-		let monstre09 = new Monstre("Void", 100, 5, 500, 5);
+		let monstre00 = new Monstre("Maille Esskuel", 180, 35, 35, 2.8);
+		let monstre01 = new Monstre("Hachete Emèl", 160, 35, 30, 1.9);
+		let monstre02 = new Monstre("Péachpé", 280, 30, 6, 2.5);
+		let monstre03 = new Monstre("Yava Skrept", 170, 40, 45, 2.2);
+		let monstre04 = new Monstre("Sea Shark", 200, 20, 50, 2.7);
+		let monstre05 = new Monstre("Super SS", 190, 20, 20, 2.8);
+		let monstre06 = new Monstre("Blobster", 150, 25, 50, 2);
+		let monstre07 = new Monstre("Hard ouino", 230, 20, 7, 3.5);
+		let monstre08 = new Monstre("Kobold", 300, 25, 40, 3);
+		let monstre09 = new Monstre("Void", 250, 25, 25, 2.7);
 		//Façon aléatoire de choisir le monstre qu'on affronte
 		let randomMonstre = Math.floor(Math.random() * Math.floor(10));
 		switch (randomMonstre) {
