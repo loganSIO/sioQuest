@@ -1,24 +1,108 @@
+@font-face {
+	font-family: firstFont;
+	src: url('font/Font1.ttf');
+}
+@font-face {
+	font-family: secondFont;
+	src: url('font/Font5.ttf');
+}
+@font-face {
+	font-family: thirdFont;
+	src: url('font/Font3.ttf');
+}
+
 * {
-	font-family: Ubuntu, Arial;
+	text-align: center;
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 }
 
+.bandeau {
+	height: 15px;
+	background: rgb(251,180,57);
+	background: -moz-linear-gradient(0deg, rgba(251,180,57,0.6642856971890319) 0%, rgba(251,69,2,1) 50%, rgba(255,188,41,0.3757702910265669) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(251,180,57,0.6642856971890319) 0%, rgba(251,69,2,1) 50%, rgba(255,188,41,0.3757702910265669) 100%);
+	background: linear-gradient(0deg, rgba(251,180,57,0.6642856971890319) 0%, rgba(251,69,2,1) 50%, rgba(255,188,41,0.3757702910265669) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbb439",endColorstr="#ffbc29",GradientType=1); 
+}
+
 img {
 	width: 250px;
+	background: rgb(242,66,6);
+	background: -moz-radial-gradient(circle, rgba(242,66,6,1) 13%, rgba(0,164,191,1) 42%, rgba(255,255,255,0) 60%);
+	background: -webkit-radial-gradient(circle, rgba(242,66,6,1) 13%, rgba(0,164,191,1) 42%, rgba(255,255,255,0) 60%);
+	background: radial-gradient(circle, rgba(242,66,6,1) 13%, rgba(0,164,191,1) 42%, rgba(255,255,255,0) 60%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f24206",endColorstr="#ffffff",GradientType=1); 
 }
 
-body {
-	background: #898070;
+body .joueur {
+	padding-top: 30px;
+	background: rgb(1,133,135);
+	background: -moz-linear-gradient(0deg, rgba(1,133,135,0.6642856971890319) 31%, rgba(147,32,1,0.3757702910265669) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(1,133,135,0.6642856971890319) 31%, rgba(147,32,1,0.3757702910265669) 100%);
+	background: linear-gradient(0deg, rgba(1,133,135,0.6642856971890319) 31%, rgba(147,32,1,0.3757702910265669) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#018587",endColorstr="#932001",GradientType=1); 
+	padding-bottom: 30px;
 }
+
+#Guerrier {
+	margin: 0 auto;
+	width: 75%;
+	border: solid;
+	border-radius: 5px;
+	border-color: rgba(223,56,0,0.1);
+}
+#Guerrier:hover {
+	margin: 0 auto;
+	width: 75%;
+	border: solid;
+	border-radius: 8px;
+	border-color: rgba(255, 102, 0, 0.9);
+}
+
+#Guerrier::active {
+	//box-shadow: 2px 3px rgb(255,255,255);
+}
+
 
 header {
-	background: #808080;
+	padding-bottom: 30px;
+	background: rgb(223,56,0);
+	background: -moz-linear-gradient(90deg, rgba(223,56,0,1) 0%, rgba(0,164,191,1) 50%, rgba(255,107,0,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(223,56,0,1) 0%, rgba(0,164,191,1) 50%, rgba(255,107,0,1) 100%);
+	background: linear-gradient(90deg, rgba(223,56,0,1) 0%, rgba(0,164,191,1) 50%, rgba(255,107,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#df3800",endColorstr="#ff6b00",GradientType=1);
+}
+
+header h1 {
+	font-family: firstFont;	
+	font-size: 75px;
+	text-shadow: -1px -1px 4px #ff6600, 1px -1px 4px #ff6600, -1px 1px 4px #ff6600, 1px 1px 4px #ff6600;
+}
+
+header h2 {
+	font-family: firstFont;
+	font-size: 30px;
+	text-shadow: -1px -1px 2px rgba(255,2552,255,0.7), 1px -1px 2px rgba(255,2552,255,0.7), -1px 1px 2px rgba(255,2552,255,0.7), 1px 1px 2px rgba(255,2552,255,0.7);
+}
+
+h3 {
+	font-family: firstFont;
+	font-size: 25px;
+	color: #cc2900;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+p {
+	font-family: secondFont;
+	font-size: 10px;
+	color: #661400;
+	opacity: 0.80;
+	padding: 10px;
 }
 
 .joueur {
-	background: #898070;
 }
 
 .actions {
