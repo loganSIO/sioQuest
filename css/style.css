@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: secondFont;
-	src: url('font/Font5.ttf');
+	src: url('font/Font5.TTF');
 }
 
 @font-face {
@@ -194,7 +194,7 @@ h3 {
 
 .description {
 	font-family: secondFont;
-	font-size: 10px;
+	font-size: 0.8em;
 	color: #661400;
 	opacity: 0.80;
 	padding: 10px;
