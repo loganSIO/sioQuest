@@ -1,10 +1,12 @@
 SIO QUEST
 
 Contexte :
+
 Dans le cadre d’un projet JavaScript pour le cours « Base de la programmation », nous
 avons décidé de créer un jeu de rôle (RPG).
 
 Histoire : 
+
 Nathan, Julien, Basile et Logan sont de jeunes étudiants en informatique.
 Seulement, lors d’un jour habituellement confiné, les quatre amis qui ont concocté une
 stratégie mûrement réfléchie, décident d’enfreindre la loi afin de se rejoindre dans un parc.
@@ -16,6 +18,7 @@ allez être châtiés ! Si vous voulez vous en sortir, terrassez tous les monstr
 chemin. Bienvenue dans SIO Quest... ».
 
 Principe :
+
 Le principe du jeu est simple, vous avez le choix entre quatre classes (guerrier, voleur,
 archer et paladin). Lorsque vous avez choisi l’une d’entre elles, vous entrez dans une arène pour
 affronter d’horribles créatures monstrueuses. Cependant, chaque combat d’arène est différent, vous
@@ -24,6 +27,7 @@ Lorsque le combat est terminé (remporté ou perdu), rafraîchissez la page de v
 jouer à nouveau !
 
 Caractéristiques :
+
 Héros comme monstres, possèdent différentes caractéristiques :
 - L’endurance : correspond aux points de vie, lorsqu’ils tombent à zéro, le combat se termine.
 - La force : représente les dégâts (avec une légère variation à chaque coup) infligés.
