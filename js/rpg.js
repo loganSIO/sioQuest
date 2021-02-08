@@ -32,7 +32,7 @@ let rpg = {
 		let getHeader = document.querySelector(".header");
 		let getActions = document.querySelector(".actions");
 		let getArene = document.querySelector(".arene");
-		getHeader.innerHTML = '<p>Votre quête ? Terrasser vos ennemis !</p>';
+		getHeader.innerHTML = '<p>Votre quete ? Terrasser vos ennemis !</p>';
 		getActions.innerHTML = '<a href="#" class="bouton" onclick="rpg.setCombat()">Trouver un ennemi !</a>';
 		getArene.style.visibility = "visible";
 	},
