@@ -1,4 +1,4 @@
-SIO QUEST
+SIO QUEST - Jouable sur : logan.ovh/rpg/html/index.html
 
 Contexte :
 
