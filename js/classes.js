@@ -82,7 +82,7 @@ let JoueurMouvements = {
 			let monstreAttaquePremier = monstreAttaque();
 			let degatsInfligeMonstre = monstreAttaquePremier[0];
 			joueur.vie = joueur.vie - degatsInfligeMonstre;
-			alert(monstre.nomMonstre + " vous a ingligé " + degatsInfligeMonstre + " points de dégâts.");
+			alert(monstre.nomMonstre + " vous a infligé " + degatsInfligeMonstre + " points de dégâts.");
 			alert("Vous n'avez pas encore terrassé " + monstre.nomMonstre + ", essayez encore !");
 
 		if (joueur.vie <= 0) {
